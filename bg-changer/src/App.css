@@ -1,0 +1,33 @@
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+    left: 20%;
+    height: 55px;
+    width: 60%;
+}
+
+.botton {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-radius: 1rem;
+    background-color: azure;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px ;
+}
+
+.no1 {
+    height: 2.5rem;
+    width: 5rem;
+    background-color: red;
+    color: white;
+    border-radius: 3rem;
+    box-shadow: 1px 1px 3px black;
+}

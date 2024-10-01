@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(56, 56, 56);
+  display: flex;
+  position: absolute;
+  left: 30%;
+  top: 5%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  color: orangered;
+}
+
+.head {
+  color: aliceblue;
+  text-align: center;
+  font-size: 30px;
+}
+
+.input-cont{
+  width: 90%;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px black;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  border-radius: 1rem;
+}
+
+.input-pass {
+  width: 100%;
+  outline: none;
+  padding-left: 3%;
+}
